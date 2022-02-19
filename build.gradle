@@ -27,6 +27,11 @@ repositories {
 }
 
 dependencies {
+    //spring.security.test
+    testCompile("org.springframework.security:spring-security-test")
+
+    //jdbc
+    compile('org.springframework.session:spring-session-jdbc')
 
     //google login
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
